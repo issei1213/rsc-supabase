@@ -15,8 +15,8 @@ async function fetchNews() {
     }
     const news: News[] = await res.json()
 
-    console.log('news', news)
-    console.log('-----------------------------')
+    // console.log('news', news)
+    // console.log('-----------------------------')
     return news
 }
 

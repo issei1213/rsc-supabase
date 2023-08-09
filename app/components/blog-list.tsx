@@ -13,8 +13,8 @@ const fetchBlogs = async () => {
     }
     const blogs: Blog[] = await res.json()
 
-    console.log('blogs', blogs)
-    console.log('-----------------------------')
+    // console.log('blogs', blogs)
+    // console.log('-----------------------------')
 
     return blogs
 }
